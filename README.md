@@ -1,2 +1,2 @@
-# api-testing-fakestore
-Simple API testing project using Fake Store API
+# api-testing-jsonplaceholder
+Simple API testing project using JSONPlaceholder
