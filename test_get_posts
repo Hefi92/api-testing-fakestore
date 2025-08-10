@@ -16,7 +16,7 @@ def test_get_posts_ok():
         assert key in data[0] 
         assert isinstance(data[0][key], (int, str)) 
 
-def test_get_post_1():
+def test_get_post_id_1():
     url = "https://jsonplaceholder.typicode.com/posts/1"
     response = requests.get(url)
     assert response.status_code == 200
